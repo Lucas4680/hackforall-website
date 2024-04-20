@@ -277,6 +277,7 @@
   position: static;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 0;
   width: 20px;
   height: 20px;
   background-image: url(../../public/arrow.png);
@@ -314,7 +315,8 @@
 }
 
 .main_title {
-  margin: 20vh 20vw;
+  margin: 4vh 20vw;
+  margin-top: 14vh;
   display:flex;
   justify-content: space-between;
 }
@@ -332,19 +334,6 @@
   cursor: pointer;
 }
 
-.four {
-  padding-top: 40px;
-  width: 7vw;
-  height: 25vh;
-  cursor: pointer;
-}
-
-.all {
-  padding-top: 40px;
-  width: 20vw;
-  height: 25vh;
-  cursor: pointer;
-}
 
 .topscroll {
   color: #d4d2d0;
