@@ -21,7 +21,6 @@ export default function Home() {
         <br></br>
         </div>
         <div className={styles.topscroll}>
-          Who We Are
           <div className={`${styles.arrow} ${styles.bounce}`}></div>
         </div>
 

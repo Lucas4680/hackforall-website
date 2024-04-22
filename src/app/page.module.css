@@ -278,8 +278,8 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 0;
-  width: 20px;
-  height: 20px;
+  height: 2vw;
+  width: 2vw;
   background-image: url(../../public/arrow.png);
   background-size: contain;
 }
@@ -336,15 +336,12 @@
 
 
 .topscroll {
-  color: #d4d2d0;
-  position: relative;
   display: block;
   width: 100%;
   text-align: center;
-  height: 100px;
-  margin: 30px;
-  margin-top:150px;
-  font-size: 35px;
+  height: 10vh;
+  margin: 1vh 3vw;
+  margin-top: 17vh;
 }
 
 .filler {
