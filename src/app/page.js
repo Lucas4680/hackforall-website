@@ -10,22 +10,19 @@ export default function Home() {
     <div>
       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
       <main className={`${styles.main} ${aldrich.Aldrich}`}>
-        <div className={styles.center}>
-        <h1><b>
-          <div className={styles.main_title}>
-            <img src="HACK.png" alt="HACK" className={`${styles.main_title_item} ${styles.hvr}`}></img>
-            <img src="4.png" alt="4" className={`${styles.main_title_item} ${styles.hvr}`}></img>
-            <img src="ALL.png" alt="ALL" className={`${styles.main_title_item} ${styles.hvr}`}></img>
-          </div>
-        </b></h1>
-        <br></br>
-        </div>
+
+        <h1><div className={styles.main_title}>
+          <img src="HACK.png" alt="HACK" className={`${styles.main_title_item} ${styles.hvr}`}></img>
+          <img src="4.png" alt="4" className={`${styles.main_title_item} ${styles.hvr}`}></img>
+          <img src="ALL.png" alt="ALL" className={`${styles.main_title_item} ${styles.hvr}`}></img>
+        </div></h1>
         <div className={styles.topscroll}>
           <div className={`${styles.arrow} ${styles.bounce}`}></div>
         </div>
 
         <div className={styles.ourmission_container}>
           <img src="ourmission-wire.png" className={styles.ourmission_wire}></img>
+          <img src="ourmission-wire-mobile.png" className={styles.ourmission_wire_mobile}></img>
           <div className={`${styles.ourmission_item_1} ${styles.ourmission_item}`}>
             <h1>Hacking</h1>
             <p>At Hack4All, hacking isn’t about using computers to access unauthorized data. Here, it’s the process of finding
