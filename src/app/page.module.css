@@ -114,7 +114,6 @@
   align-items: center;
   padding: 1vw;
   justify-content:space-between;
-  background-color:chocolate;
 }
 
 .ourmission_wire {
@@ -140,7 +139,6 @@
   padding: 1vw;
   width: 40vw;
   height: 20vw;
-  background-color:blueviolet;
 }
 
 .ourmission_item_1 {
@@ -192,7 +190,6 @@
     margin-left: 25vw;
     margin-right:auto;
     height:25vh;
-    background-color:blueviolet;
   }
   .ourmission_item_1 {
     margin-top:40vw;
@@ -277,6 +274,177 @@
 }
 
 /* Footer End */
+
+/* Get Involved Start */
+.getinvolved {
+  width:100vw;
+  height:42vw;
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+}
+.getinvolved h2 {
+  color:#ffffff;
+  margin: auto;
+  margin-top:1vw;
+  margin-bottom:3vw;
+  display: block;
+  font-size: 4vw;
+  text-align:center;
+}
+.getinvolved h3 {
+  font-size: 2vw;
+  text-align:center;
+  color:#ffffff;
+}
+.getinvolved p {
+  font-size: 1vw;
+  color:#ffffff;
+}
+
+.getinvolved button {
+  height: 5vw;
+  width: 25vw;
+  background-color:chocolate;
+  margin: 0 auto;
+  border-radius:1vw;
+}
+.getinvolved a {
+  height: 3.75vw;
+  width: 25vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  background-color:chocolate;
+  margin: 0 auto;
+  border-radius:1vw;
+  text-align:center;
+}
+
+.getinvolvedsubcolumn {
+  width: 39vw;
+  height: 18vw;
+  background-color:rgb(2, 3, 19);
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  border-radius:2vw;
+  padding:2vw;
+}
+
+.getinvolvedsections {
+  width: 80vw;
+  height: 38vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.getinvolvednewsletter {
+  width: 32vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+.getinvolved input[type=text]  {
+  width: 26vw;
+  font-size: 1vw;
+  height: 3vw;
+  padding: 0.5vw 1vw;
+  box-sizing: border-box;
+  background-color:chocolate;
+  border-radius:0.5vw;
+  border-width:0;
+}
+.getinvolved input[type=text]::placeholder  {
+  font-size: 1vw;
+  color:#ffffff;
+}
+.getinvolved input[type=submit]  {
+  height: 3vw;
+  width: 3vw;
+  box-sizing: border-box;
+  background-color:chocolate;
+  border-radius:0.5vw;
+  border-width:0;
+
+}
+
+.getinvolvedcolumn1 {
+  width: 39vw;
+  height: 100%;
+  background-color:rgb(2, 3, 19);
+  border-radius:2vw;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: 2vw;
+  padding-bottom: 6vw;
+}
+
+
+.getinvolvedcolumn2 {
+  width: 39vw;
+  height: 100%;
+  border-radius:2vw;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+@media (max-width: 768px) {
+  .getinvolved h2 {
+    font-size: 8vw;
+  }
+  .getinvolved h3 {
+    font-size: 4vw;
+  }
+  .getinvolved p {
+    font-size: 2vw;
+  }
+  .getinvolved a {
+    height: 7.5vw;
+    width: 50vw;
+  }
+  .getinvolved input[type=text]  {
+    width: 52vw;
+    font-size: 2vw;
+    height: 6vw;
+  }
+  .getinvolved input[type=text]::placeholder {
+    font-size:2vw;
+  }
+  .getinvolved input[type=submit]  {
+    height: 6vw;
+    width: 6vw;
+  }
+  .getinvolvednewsletter {
+    width: 65vw;
+  }
+  .getinvolvedsections {
+    flex-direction:column;
+    justify-content: space-between;
+    width: 80vw;
+    height: 135vw;
+  }
+  .getinvolved {
+    height: 150vw;
+    width:80vw;
+  }
+  .getinvolvedcolumn1 {
+    width: 80vw;
+    margin: 2vw 0;
+  }
+  .getinvolvedcolumn2 {
+    width: 80vw;
+  }
+  .getinvolvedsubcolumn {
+    width: 80vw;
+    height: 40vw;
+    margin: 2vw 0;
+    padding: 6vw 4vw;
+  }
+}
+/* Get Involved End */
 
 
 /* Fade Start */
@@ -382,7 +550,6 @@
   margin-bottom: calc(calc(calc(100vh - 10vw) / 2.5) - 22vh);
   display:flex;
   justify-content: space-between;
-  background-color:cyan;
 }
 .main_title_item {
   cursor: pointer;
@@ -393,7 +560,6 @@
 
 @media (max-width: 768px) {
   .main_title {
-    background-color:darkorchid;
     margin:auto;
     margin-top: calc(calc(calc(100vh - 14vw) / 2.5) - 12vh);
     margin-bottom: calc(calc(calc(100vh - 14vw) / 2.5) - 2vh);
@@ -406,7 +572,6 @@
 
 
 .topscroll {
-  background-color:#2c3ba1;
   display: block;
   width: 100%;
   text-align: center;

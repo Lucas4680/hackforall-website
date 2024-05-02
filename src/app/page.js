@@ -28,14 +28,11 @@ export default function Home() {
             <p>At Hack4All, hacking isn’t about using computers to access unauthorized data. Here, it’s the process of finding
 inventive and innovative solutions to solve problems or create new things.</p>
           </div>
-
-          
           <div className={`${styles.ourmission_item_2} ${styles.ourmission_item}`}>
             <h1>Hack4All</h1>
             <p>Finding where to start can be the most difficult part of the hacking journey. Hack4All is a 501(c)(3) recognized club 
               that strives to give members of all skill levels not only a starting point, but a an array of resources and opportunities no matter the skill level.</p>
           </div>
-          
           <div className={`${styles.ourmission_item_3} ${styles.ourmission_item}`}>
             <h1>Our Mission</h1>
             <p>With hacking, we believe the best way to learn is by doing. As such, Hack4All takes an application-based approach to best benefit hackers. 
@@ -44,6 +41,43 @@ inventive and innovative solutions to solve problems or create new things.</p>
           </div>
 
         </div>
+
+
+
+        <div className={styles.getinvolved}>
+          <h2>Get Involved</h2>
+          <div className={styles.getinvolvedsections}>
+            <div className={styles.getinvolvedcolumn1}>
+              <h3>Join the Community</h3>
+              <p>Join our community of young hackers to socialise, share projects, get help, and hang out! Be sure to introduce yourself!</p>
+              <a href="https://rickroll.it/rickroll.mp4">
+                <p>Join our Slack!</p>
+              </a>
+              <a href="https://rickroll.it/rickroll.mp4">
+                <p>Join our Discord!</p>
+              </a>
+            </div>
+            <div className={styles.getinvolvedcolumn2}>
+              <div className={styles.getinvolvedsubcolumn}>
+                <h3>Our Newsletter</h3>
+                <p>Join our newsletter for updates and blah blah upcoming events and opportunities yap</p>
+                <form className={styles.getinvolvednewsletter}>
+                  <input type="text" placeholder="Email..." name="email"/>
+                  <input type="submit" value=""/>
+                </form>
+              </div>
+              <div className={styles.getinvolvedsubcolumn}>
+                <h3>Check Out Events</h3>
+                <p>Take a look at past and upcoming events that will blah blah let you blah create hack stuff</p>
+                <a href="https://rickroll.it/rickroll.mp4">
+                  <p>Events</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </main>
     </div>
   );
